@@ -31,7 +31,7 @@ class App extends Component {
       emitEvent: this.fetch
     }
     return (
-      <div className="App">
+      <div className="App" data-test="AppComponent">
         <Header />
         <section className="main">
           <Headline header="Posts" desc="Click on the button to render posts" tempArr={tempArr} />
